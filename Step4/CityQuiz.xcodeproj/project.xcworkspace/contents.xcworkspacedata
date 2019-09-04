@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/rafaelasouza/workspace/Workshop-Swift-for-beginners/Step4/CityQuiz/Barcelona.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/rafaelasouza/workspace/Workshop-Swift-for-beginners/Step4/CityQuiz/Lisbon.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/rafaelasouza/workspace/Workshop-Swift-for-beginners/Step4/CityQuiz/London.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/rafaelasouza/workspace/Workshop-Swift-for-beginners/Step4/CityQuiz/Paris.jpg">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
