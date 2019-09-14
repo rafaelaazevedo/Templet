@@ -12,24 +12,24 @@ class quizPage {
 
     let app = XCUIApplication()
 
-    func assertButtonAwesome() {
-        var buttonAwesome = app.alerts["City Quiz"].buttons["Awesome"]
-        XCTAssertEqual(buttonAwesome.exists, false)
+    func assertButton(_ expectedButton: String) {
+        let expectedButton = app.alerts["City Quiz"].buttons[expectedButton]
+        XCTAssertEqual(expectedButton.exists, false)
     }
     
-    func tapCity(_city: String) {
-        var city = app.otherElements.containing(.staticText, identifier: _city).children(matching: .button).matching(identifier: "Button").element(boundBy: 1)
+    func tapCity(_ city: String) {
+        let city = app.buttons[city]
         city.tap()
     }
     
-    func awesomeButton() {
-        var buttonAwesome = app.alerts["City Quiz"].buttons["Awesome"]
-        buttonAwesome.tap()
+    func confirmButton(_  button: String) {
+        let buttonTryAgain = app.alerts["City Quiz"].buttons[button]
+        buttonTryAgain.tap()
     }
     
-    func assertCityMessage(_successMessage: String) {
-        var messageAwesome = app.alerts["City Quiz"].staticTexts[_successMessage]
-        XCTAssertEqual(messageAwesome.label, _successMessage)
+    func assertCityMessage(_ successMessage: String) {
+        let messageAwesome = app.alerts["City Quiz"].staticTexts[successMessage]
+        XCTAssertEqual(messageAwesome.label, successMessage)
     }
 
 }

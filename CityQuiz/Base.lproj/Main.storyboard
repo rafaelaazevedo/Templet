@@ -18,26 +18,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aI4-EZ-wtP">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aI4-EZ-wtP">
                                 <rect key="frame" x="99" y="328" width="175" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Paris.jpg"/>
+                                <accessibility key="accessibilityConfiguration" label="paris"/>
+                                <size key="titleShadowOffset" width="146" height="750"/>
+                                <state key="normal" title="Paris" image="Paris.jpg"/>
                                 <connections>
                                     <action selector="showParis" destination="BYZ-38-t0r" eventType="touchUpInside" id="ghR-Ng-gDw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbc-DD-o4h">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbc-DD-o4h">
                                 <rect key="frame" x="99" y="214" width="175" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Lisbon.jpg"/>
+                                <accessibility key="accessibilityConfiguration" label="lisbon"/>
+                                <size key="titleShadowOffset" width="146" height="750"/>
+                                <state key="normal" title="Lisbon" image="Lisbon.jpg"/>
                                 <connections>
                                     <action selector="showLisbon" destination="BYZ-38-t0r" eventType="touchUpInside" id="Go5-yt-8kX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gki-PP-hmf">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gki-PP-hmf">
                                 <rect key="frame" x="99" y="96" width="175" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="London.jpg"/>
+                                <accessibility key="accessibilityConfiguration" label="london"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <size key="titleShadowOffset" width="146" height="750"/>
+                                <state key="normal" title="London" image="London.jpg"/>
                                 <connections>
                                     <action selector="showLondon" destination="BYZ-38-t0r" eventType="touchUpInside" id="Exk-wr-AtB"/>
                                 </connections>
@@ -45,13 +52,15 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cp9-20-I6o">
                                 <rect key="frame" x="99" y="448" width="175" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Barcelona.jpg"/>
+                                <accessibility key="accessibilityConfiguration" label="barcelona"/>
+                                <size key="titleShadowOffset" width="146" height="750"/>
+                                <state key="normal" title="Barcelona" image="Barcelona.jpg"/>
                                 <connections>
                                     <action selector="showBarcelona" destination="BYZ-38-t0r" eventType="touchUpInside" id="zuX-7A-bXb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lisbon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uzj-cV-5LN">
-                                <rect key="frame" x="85" y="39" width="150" height="35"/>
+                                <rect key="frame" x="111" y="44" width="150" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>

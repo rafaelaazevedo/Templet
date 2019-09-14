@@ -20,17 +20,19 @@ class CityQuizUITests: XCTestCase {
     }
 
     func testCorrectCity() {
-        quizPage().tapCity(_city: "Lisbon")
-        quizPage().assertCityMessage(_successMessage: "You are Awesome. I am Lisbon")
-        quizPage().awesomeButton()
-        quizPage().assertButtonAwesome()
+        let expectedButton = "Awesome"
+        quizPage().tapCity("lisbon")
+        quizPage().assertCityMessage("You are Awesome. I am Lisbon!")
+        quizPage().confirmButton(expectedButton)
+        quizPage().assertButton(expectedButton)
     }
     
     func testWrongCity() {
-        quizPage().tapCity(_city: "London")
-        quizPage().assertCityMessage(_successMessage: "I'm sorry, I am not Lisbon!")
-        quizPage().awesomeButton()
-        quizPage().assertButtonAwesome()
+        let expectedButton = "Try again"
+        quizPage().tapCity("london")
+        quizPage().assertCityMessage("I'm sorry... I'm not Lisbon!")
+        quizPage().confirmButton(expectedButton)
+        quizPage().assertButton(expectedButton)
     }
 
 }

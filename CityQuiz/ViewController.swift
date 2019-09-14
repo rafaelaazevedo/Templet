@@ -11,36 +11,41 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var cityLabel: UILabel!
 
+    private func messageForCity(_ city: String) -> String {
+        return isSelectedCity(city) ? "You are Awesome. I am \(city)!" : "I'm sorry... I'm not \(cityLabel.text!)!"
+    }
     
-    func showAlert(_city: String){
-        var message = ""
-        if cityLabel.text == _city {
-            message = "You are Awesome. I am \(_city)"
-        }
-        else {
-            message = "I'm sorry, I am not \(cityLabel.text!)!"
-        }
+    private func buttonTitleForCity(_ city: String) -> String {
+        return isSelectedCity(city) ? "Awesome" : "Try again"
+    }
+    
+    private func isSelectedCity(_ city: String) -> Bool {
+        return cityLabel.text == city
+    }
+    
+    func showAlert(_ city: String){
+        let message = messageForCity(city)
+        let buttonTitle = buttonTitleForCity(city)
         let alert = UIAlertController(title: "City Quiz", message: message, preferredStyle: .alert)
-        
-        let actions = UIAlertAction(title: "Awesome", style: .default, handler: nil)
+        let actions = UIAlertAction(title: buttonTitle, style: .default, handler: nil)
         
         alert.addAction(actions)
         present(alert, animated: true, completion: nil)
     }
     
     @IBAction func showLondon() {
-        showAlert(_city: "London")
+        showAlert("London")
     }
 
     @IBAction func showParis() {
-        showAlert(_city: "Paris")
+        showAlert("Paris")
     }
     @IBAction func showLisbon() {
-       showAlert(_city: "Lisbon")
+       showAlert("Lisbon")
     }
    
     @IBAction func showBarcelona() {
-       showAlert(_city: "Barcelona")
+       showAlert("Barcelona")
     }
     
     override func viewDidLoad() {
