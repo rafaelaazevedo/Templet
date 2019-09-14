@@ -35,10 +35,10 @@
 		2BAD7FF823201293009D7E6F /* CityQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityQuizUITests.swift; sourceTree = "<group>"; };
 		2BAD7FFA23201293009D7E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BAD800223201873009D7E6F /* QuizPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPage.swift; sourceTree = "<group>"; };
-		2BCE41D9207A83380008C896 /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = London.jpg; path = "/Users/rafaelasouza/workspace/Workshop-Swift-for-beginners/Step4/CityQuiz/London.jpg"; sourceTree = "<absolute>"; };
-		2BCE41DA207A83390008C896 /* Lisbon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lisbon.jpg; path = "/Users/rafaelasouza/workspace/Workshop-Swift-for-beginners/Step4/CityQuiz/Lisbon.jpg"; sourceTree = "<absolute>"; };
-		2BCE41DB207A83390008C896 /* Paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Paris.jpg; path = "/Users/rafaelasouza/workspace/Workshop-Swift-for-beginners/Step4/CityQuiz/Paris.jpg"; sourceTree = "<absolute>"; };
-		2BCE41DC207A83390008C896 /* Barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Barcelona.jpg; path = "/Users/rafaelasouza/workspace/Workshop-Swift-for-beginners/Step4/CityQuiz/Barcelona.jpg"; sourceTree = "<absolute>"; };
+		2BCE41D9207A83380008C896 /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = London.jpg; path = /Users/rafaelasouza/workspace/Templet/CityQuiz/London.jpg; sourceTree = "<absolute>"; };
+		2BCE41DA207A83390008C896 /* Lisbon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lisbon.jpg; path = /Users/rafaelasouza/workspace/Templet/CityQuiz/Lisbon.jpg; sourceTree = "<absolute>"; };
+		2BCE41DB207A83390008C896 /* Paris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Paris.jpg; path = /Users/rafaelasouza/workspace/Templet/CityQuiz/Paris.jpg; sourceTree = "<absolute>"; };
+		2BCE41DC207A83390008C896 /* Barcelona.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Barcelona.jpg; path = /Users/rafaelasouza/workspace/Templet/CityQuiz/Barcelona.jpg; sourceTree = "<absolute>"; };
 		938455051F88AA1900A86B26 /* CityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938455081F88AA1900A86B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9384550A1F88AA1900A86B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Rafazzevedo;
 				TargetAttributes = {
 					2BAD7FF523201292009D7E6F = {
@@ -317,6 +317,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -324,6 +325,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -374,6 +376,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -381,6 +384,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
